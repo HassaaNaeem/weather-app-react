@@ -9,7 +9,7 @@ type Props = {
 export default function Card({ children, title, childrenClassName }: Props) {
   return (
     <div className="p-4 bg-zinc-900 rounded-xl shadow-md flex flex-col gap-4">
-      <h2 className="text-2xl font-semibold">{title}</h2>
+      <h2 className="text-2xl font-semibold text-gray-300">{title}</h2>
       <div className={childrenClassName}>{children}</div>
     </div>
   );
